@@ -82,6 +82,7 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-link {
   font-family: var(--logo-font);
@@ -115,7 +116,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
-  padding: 24px 0;
+ 
 }
 .contact {
   font-style: normal;
@@ -395,6 +396,8 @@ img {
   color: var(--color-iris);
   font-weight: 500;
   padding: 12px 24px;
+  border: 1px solid transparent;
+  border: 1px solid transparent;
 }
 .portfolio-list {
   display: flex;
