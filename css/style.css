@@ -377,7 +377,6 @@ img {
   gap: 24px;
   margin-bottom: 72px;
 }
-
 .main-btn {
   cursor: pointer;
   height: 48px;
@@ -387,20 +386,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background: var(--color-cloud);
-  border: 1px solid var(--color-cornflower);
-  border-radius: 4px;
   color: var(--color-iris);
   font-weight: 500;
   padding: 12px 24px;
-  border: 1px solid transparent;
+  border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
   border: 1px solid transparent;
 }
-.other-btn:hover,
-.other-btn:focus {
-  background-color: var(--color-cornflower);
-  color: var(--color-white);
-}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
