@@ -33,6 +33,9 @@ body {
   color: var(--color-slate);
   background-color: var(--color-white);
 }
+img{
+  display: block
+}
 .hidden {
   width: 1px;
   height: 1px;
@@ -65,15 +68,20 @@ body {
   |============================
 */
 .cont {
-  display: inline-flex;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  padding-bottom: 0px;
+  display: flex;
+  
+}
+.container{
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
+  display: inline-flex;
+  align-items: center; 
 }
 .header-link {
   font-family: var(--logo-font);
@@ -84,7 +92,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-  margin-left: 156px;
+  margin-right: 76px;
+  display: flex;
 }
 .logo-text {
   font-family: var(--logo-font);
@@ -95,10 +104,9 @@ body {
   color: var(--color-navy-blue);
 }
 .header-list {
-  display: inline-flex;
+  display:flex;
   gap: 24px;
   letter-spacing: 0.02em;
-  margin-left: 76px;
 }
 .header-item {
   font-weight: 500;
@@ -112,11 +120,12 @@ body {
   margin-left: 332px;
 }
 .contact-list {
+  display:flex;
   color: var(--color-slate);
-  display: inline-flex;
   font-family: var(--main-font);
   letter-spacing: 0.02em;
   gap: 40px;
+  padding: 24px 0;
 }
 .contact-list:hover,
 .contact-list:focus {
@@ -129,6 +138,7 @@ body {
   letter-spacing: 0.02em;
 }
 .contact-tel {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -138,8 +148,11 @@ body {
   | Hero Section
   |============================
 */
+.hero-cont{
+ 
+}
 .hero-section {
-  margin-bottom: 120px;
+  padding: 188px 0;
   background-color: var(--color-navy-blue);
   color: var(--color-white);
 }
@@ -148,8 +161,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
-  height: 120px;
+  max-width: 496px;
   margin-left: 500px;
   padding-top: 174px;
   margin-bottom: 48px;
@@ -165,19 +177,21 @@ body {
   color: var(--color-white);
   background-color: var(--color-iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  display: block;
   margin-left: 668px;
   margin-bottom: 204px;
   margin-top: 100px;
   margin-right: 667px;
+ 
 }
 .button-text {
   text-transform: capitalize;
-  padding-top: 16px;
-  padding-right: 32px;
-  padding-bottom: 16px;
-  padding-left: 32px;
+  
 }
 .btn:hover,
 .btn:focus {
@@ -252,7 +266,7 @@ body {
   padding: 0px;
 }
 .about-img {
-  display: block
+  
 }
 /**
   |============================
@@ -287,7 +301,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .team-img {
-  display: block
+  
   margin-bottom: 0px;
 }
 .subtitle {
@@ -390,7 +404,7 @@ body {
   margin-bottom: 120px;
 }
 .portfolio-img{
-  display: block;
+ 
 }
 .porfolio-item {
   border: 1px solid #e7e9fc;
