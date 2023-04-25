@@ -82,6 +82,7 @@ img{
 .header-nav {
   display: inline-flex;
   align-items: center; 
+  gap: 40px;
 }
 .header-link {
   font-family: var(--logo-font);
@@ -109,6 +110,7 @@ img{
   letter-spacing: 0.02em;
 }
 .header-item {
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
