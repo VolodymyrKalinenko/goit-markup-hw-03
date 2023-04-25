@@ -4,40 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
-      href="./css/style.css"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <!--Header section-->
     <header class="header">
-      <nav class="header-nav">
-        <a class="header-link link" href="./index.html">
-           web
-          <span class="logo-text">Studio</span></a>
-        <ul class="header-list list">
-          <li class="header-item item"><a href="./index.html" class="link">Studio</a></li>
-          <li class="header-item item"><a href="./portfolio.html" class="link">Portfolio</a></li>
-          <li class="header-item item"><a href="" class="link">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="contact">
-        <ul class="contact-list list">
-          <li class="contact-mail"><a href="mailto:info@devstudio.com" class="address-link link"> info@devstudio.com </a></li>
-          <li class="contact-tel"><a href="tel:+110001111111" class="address-link link">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="cont">
+        <nav class="header-nav">
+          <a class="header-link link" href="./index.html">
+            web
+            <span class="logo-text">Studio</span></a
+          >
+          <ul class="header-list list">
+            <li class="header-item item">
+              <a href="./index.html" class="link">Studio</a>
+            </li>
+            <li class="header-item item">
+              <a href="./portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li class="header-item item">
+              <a href="" class="link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contact">
+          <ul class="contact-list list">
+            <li class="contact-mail">
+              <a href="mailto:info@devstudio.com" class="address-link link">
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="contact-tel">
+              <a href="tel:+110001111111" class="address-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- hero section -->
       <section class="hero-section">
         <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="button btn"><span class="button-text">Order Service</span></button>
+        <button type="button" class="button btn">
+          <span class="button-text">Order Service</span>
+        </button>
       </section>
       <!-- main section -->
       <section class="desc-section">
@@ -118,8 +141,10 @@
               height="260"
               class="team-img"
             />
-            <h3 class="subtitle">Mark Guerrero</h3>
-            <p class="small-text">Product Designer</p>
+            <div class="card-content">
+              <h3 class="subtitle">Mark Guerrero</h3>
+              <p class="small-text">Product Designer</p>
+            </div>
           </li>
           <li class="team-item">
             <img
@@ -129,8 +154,10 @@
               height="260"
               class="team-img"
             />
-            <h3 class="subtitle">Tom Ford</h3>
-            <p class="small-text">Frontend Developer</p>
+            <div class="card-content">
+              <h3 class="subtitle">Tom Ford</h3>
+              <p class="small-text">Frontend Developer</p>
+            </div>
           </li>
           <li class="team-item">
             <img
@@ -140,8 +167,10 @@
               height="260"
               class="team-img"
             />
-            <h3 class="subtitle">Camila Garcia</h3>
-            <p class="small-text">Marketing</p>
+            <div class="card-content">
+              <h3 class="subtitle">Camila Garcia</h3>
+              <p class="small-text">Marketing</p>
+            </div>
           </li>
           <li class="team-item">
             <img
@@ -151,22 +180,26 @@
               height="260"
               class="team-img"
             />
-            <h3 class="subtitle">Daniel Wilson</h3>
-            <p class="small-text">UI Designer</p>
+            <div class="card-content">
+              <h3 class="subtitle">Daniel Wilson</h3>
+              <p class="small-text">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
     </main>
     <!--Footer-->
-    <footer class="footer">
-      <a href="./index.html" class="header-link footer-link link">
-        web
-        <span class="footer-logo-text">Studio</span>
-      </a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </footer>
+    <div class="footer-container">
+      <footer class="footer">
+        <a href="./index.html" class="header-link footer-link link">
+          web
+          <span class="footer-logo-text">Studio</span>
+        </a>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
