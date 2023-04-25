@@ -213,9 +213,10 @@ img {
   display: flex;
   letter-spacing: 0.02em;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
+  
 }
 .desc-item {
+  width: calc((100% - 72px) / 4);
 }
 .desc-title {
   width: 264px;
