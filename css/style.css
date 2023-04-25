@@ -325,13 +325,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
-
 /**
   |============================
   | Footer
   |============================
 */
-
 .footer {
   padding: 100px 0;
   background-color: var(--color-navy-blue);
@@ -396,6 +394,12 @@ img {
   border: 1px solid transparent;
   border: 1px solid transparent;
 }
+.other-btn:hover,
+.other-btn:focus {
+  background-color: var(--color-cornflower);
+  color: var(--color-white);
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
