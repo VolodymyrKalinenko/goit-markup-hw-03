@@ -390,9 +390,9 @@ img {
   color: var(--color-iris);
   font-weight: 500;
   padding: 12px 24px;
-  
   border-radius: 4px;
-  
+  border: 1px solid var(--color-cornflower);
+  border: 1px solid transparent;
 }
 .main-btn:hover,
 .main-btn:focus {
