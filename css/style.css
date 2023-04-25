@@ -82,7 +82,6 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-link {
   font-family: var(--logo-font);
@@ -108,7 +107,6 @@ img {
   display: flex;
   gap: 40px;
   letter-spacing: 0.02em;
-  
 }
 .header-item {
   font-weight: 500;
@@ -116,7 +114,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
- 
+  padding: 24px 0;
 }
 .contact {
   font-style: normal;
@@ -215,7 +213,6 @@ img {
   display: flex;
   letter-spacing: 0.02em;
   gap: 24px;
-  
 }
 .desc-item {
   width: calc((100% - 72px) / 4);
@@ -370,7 +367,7 @@ img {
   | Portfolio
   |============================
 */
-.nav-section{
+.nav-section {
   padding: 96px 0 120px;
 }
 .nav-btn-list {
@@ -403,19 +400,18 @@ img {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  column-gap: 24px; 
-
+  column-gap: 24px;
 }
 .portfolio-img {
 }
 .portfolio-item {
   width: calc((100% - 48px) / 3);
-   margin-bottom: 46px;
+  margin-bottom: 46px;
 }
-.portfolio-card{
+.portfolio-card {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: none; 
+  border-top: none;
 }
 .row-section {
 }
