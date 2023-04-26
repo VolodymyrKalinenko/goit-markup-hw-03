@@ -339,7 +339,6 @@ img {
   text-transform: uppercase;
   color: var(--color-iris);
   margin-right: 76px;
-  display: flex;
   padding: 0px;
 }
 .footer-logo-text {
